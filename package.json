@@ -1,11 +1,9 @@
 {
-  "name": "t3-fullstack-template",
-  "version": "0.1.0",
+  "name": "agent-webapp",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "next build",
-    "db:push": "dotenv drizzle-kit push:pg",
-    "db:studio": "dotenv drizzle-kit studio",
     "dev": "next dev",
     "brrr": "next dev --turbo",
     "lint": "next lint",
@@ -32,7 +30,9 @@
     "superjson": "^1.13.1",
     "tailwind-merge": "^2.0.0",
     "tailwindcss-animate": "^1.0.7",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "ui": "workspace:*",
+    "db-core": "workspace:*"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.2",

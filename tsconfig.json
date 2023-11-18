@@ -29,7 +29,10 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.mjs",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "../../packages/db-core/schema/account.schema.ts",
+    "../../packages/db-core/schema/pgtable.ts",
+    "../../packages/db-core/schema/user.schema.ts"
   ],
   "exclude": ["node_modules"]
 }

@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "RB T3 Project Template",
-  description: "My custom template for Next.js projects",
+  title: "Agent Dashboard",
+  description: "Agent Dashboard ",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 

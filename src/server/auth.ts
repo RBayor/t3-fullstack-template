@@ -6,8 +6,8 @@ import {
   type NextAuthOptions,
 } from "next-auth";
 
-import { db } from "@/server/db";
-import { pgTable } from "@/server/db/schema/pgtable";
+import { db } from "db-core";
+import { pgTable } from "db-core/schema/pgtable";
 import { env } from "@/env.mjs";
 
 /**
